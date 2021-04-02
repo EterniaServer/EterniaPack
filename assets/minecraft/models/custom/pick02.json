@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/chave/chave_diamante"
+    "layer0": "item/ferramentas/pick02"
   }
 }

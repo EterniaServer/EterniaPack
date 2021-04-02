@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/iron_pickaxe"
+  },
+  "overrides": [
+	{ "predicate": {"custom_model_data": 721011}, "model": "custom/pick01" },
+	{ "predicate": {"custom_model_data": 721012}, "model": "custom/pick02" },
+	{ "predicate": {"custom_model_data": 721013}, "model": "custom/pick03" },
+	{ "predicate": {"custom_model_data": 721014}, "model": "custom/pick04" },
+	{ "predicate": {"custom_model_data": 721015}, "model": "custom/pick05" },
+	{ "predicate": {"custom_model_data": 721016}, "model": "custom/pick06" },
+	{ "predicate": {"custom_model_data": 721017}, "model": "custom/pick07" },
+	{ "predicate": {"custom_model_data": 721018}, "model": "custom/pick08" },
+	{ "predicate": {"custom_model_data": 721019}, "model": "custom/pick09" }
+
+
+
+  ]
+}
