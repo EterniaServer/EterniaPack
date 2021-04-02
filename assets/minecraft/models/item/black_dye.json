@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/black_dye"
+
+  },
+  "overrides": [
+	{ "predicate": {"custom_model_data": 721001}, "model": "custom/chave_diamante" }
+
+
+  ]
+}
