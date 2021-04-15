@@ -1,0 +1,19 @@
+{
+	"parent": "item/generated",
+	"author": "Malucelli",
+	"textures": {
+		"layer0": "item/globe_banner_pattern"
+	},
+	
+	"overrides": [
+		{ "predicate": { "custom_model_data": 721020}, "model": "custom/perga01"},
+		{ "predicate": { "custom_model_data": 721021}, "model": "custom/perga02"},
+		{ "predicate": { "custom_model_data": 721022}, "model": "custom/perga03"},
+		{ "predicate": { "custom_model_data": 721023}, "model": "custom/perga04"},
+		{ "predicate": { "custom_model_data": 721024}, "model": "custom/perga05"},
+		{ "predicate": { "custom_model_data": 721025}, "model": "custom/perga06"},
+		{ "predicate": { "custom_model_data": 721026}, "model": "custom/perga07"},
+		{ "predicate": { "custom_model_data": 2200600}, "model": "item/raulh22/slimefun/slimefun/none"}
+
+	]
+}

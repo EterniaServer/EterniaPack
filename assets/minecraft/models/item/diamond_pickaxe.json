@@ -1,8 +1,8 @@
 {
-	"parent": "item/generated",
+    "parent": "item/handheld",
 	"author": "RaulH22",
 	"textures": {
-		"layer0": "item/iron_pickaxe"
+		"layer0": "item/diamond_pickaxe"
 	},
 	
 	"overrides": [
@@ -23,6 +23,7 @@
 		{ "predicate": { "custom_model_data": 721015}, "model": "custom/pick05"},
 		{ "predicate": { "custom_model_data": 721016}, "model": "custom/pick06"},
 		{ "predicate": { "custom_model_data": 721017}, "model": "custom/pick07"},
+		
 
 		{ "predicate": { "custom_model_data": 2200001}, "model": "item/raulh22/slimefun/slimefun/gui/slimefun_guide"},
 		{ "predicate": { "custom_model_data": 2200002}, "model": "item/raulh22/slimefun/slimefun/gui/background"},

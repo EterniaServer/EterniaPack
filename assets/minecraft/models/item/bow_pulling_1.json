@@ -2,28 +2,32 @@
 	"parent": "item/generated",
 	"author": "RaulH22",
 	"textures": {
-		"layer0": "item/iron_pickaxe"
+		"layer0": "item/bow_pulling_1"
 	},
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -80, 260, -40 ],
+            "translation": [ -1, -2, 2.5 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -80, -280, 40 ],
+            "translation": [ -1, -2, 2.5 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        }
+    },
 	
 	"overrides": [
-		{ "predicate": { "custom_model_data": 721001}, "model": "custom/chave_diamante"},
-		{ "predicate": { "custom_model_data": 721002}, "model": "custom/chave_esmeralda"},
-		{ "predicate": { "custom_model_data": 721003}, "model": "custom/chave_gold"},
-		{ "predicate": { "custom_model_data": 721004}, "model": "custom/chave_iron"},
-		{ "predicate": { "custom_model_data": 721005}, "model": "custom/chave_joias"},
-		{ "predicate": { "custom_model_data": 721006}, "model": "custom/chave_madeira"},
-		{ "predicate": { "custom_model_data": 721007}, "model": "custom/chave_rubi"},
-		{ "predicate": { "custom_model_data": 721008}, "model": "custom/chave_safira"},
-		{ "predicate": { "custom_model_data": 721009}, "model": "custom/chave_vote"},
-		{ "predicate": { "custom_model_data": 721010}, "model": "custom/chave_wither"},
-		{ "predicate": { "custom_model_data": 721011}, "model": "custom/pick01"},
-		{ "predicate": { "custom_model_data": 721012}, "model": "custom/pick02"},
-		{ "predicate": { "custom_model_data": 721013}, "model": "custom/pick03"},
-		{ "predicate": { "custom_model_data": 721014}, "model": "custom/pick04"},
-		{ "predicate": { "custom_model_data": 721015}, "model": "custom/pick05"},
-		{ "predicate": { "custom_model_data": 721016}, "model": "custom/pick06"},
-		{ "predicate": { "custom_model_data": 721017}, "model": "custom/pick07"},
-
 		{ "predicate": { "custom_model_data": 2200001}, "model": "item/raulh22/slimefun/slimefun/gui/slimefun_guide"},
 		{ "predicate": { "custom_model_data": 2200002}, "model": "item/raulh22/slimefun/slimefun/gui/background"},
 		{ "predicate": { "custom_model_data": 2200003}, "model": "item/raulh22/slimefun/slimefun/gui/back"},
@@ -297,7 +301,7 @@
 		{ "predicate": { "custom_model_data": 2200271}, "model": "item/raulh22/slimefun/slimefun/tools/vein_pickaxe"},
 		{ "predicate": { "custom_model_data": 2200272}, "model": "item/raulh22/slimefun/slimefun/weapons/soulbound_sword"},
 		{ "predicate": { "custom_model_data": 2200273}, "model": "item/raulh22/slimefun/slimefun/weapons/soulbound_trident"},
-		{ "predicate": { "custom_model_data": 2200274}, "model": "item/raulh22/slimefun/slimefun/weapons/soulbound_bow/soulbound_bow"},
+		{ "predicate": { "custom_model_data": 2200274}, "model": "item/raulh22/slimefun/slimefun/weapons/soulbound_bow/soulbound_bow_pulling_1"},
 		{ "predicate": { "custom_model_data": 2200275}, "model": "item/raulh22/slimefun/slimefun/tools/soulbound_pickaxe"},
 		{ "predicate": { "custom_model_data": 2200276}, "model": "item/raulh22/slimefun/slimefun/tools/soulbound_axe"},
 		{ "predicate": { "custom_model_data": 2200277}, "model": "item/raulh22/slimefun/slimefun/tools/soulbound_shovel"},
@@ -334,8 +338,8 @@
 		{ "predicate": { "custom_model_data": 2200308}, "model": "item/raulh22/slimefun/slimefun/technical_components/copper_wire"},
 		{ "predicate": { "custom_model_data": 2200309}, "model": "item/raulh22/slimefun/slimefun/basic_machines/block_placer"},
 		{ "predicate": { "custom_model_data": 2200310}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/dimensional_scroll"},
-		{ "predicate": { "custom_model_data": 2200311}, "model": "item/raulh22/slimefun/slimefun/weapons/explosive_bow/explosive_bow"},
-		{ "predicate": { "custom_model_data": 2200312}, "model": "item/raulh22/slimefun/slimefun/weapons/icy_bow/icy_bow"},
+		{ "predicate": { "custom_model_data": 2200311}, "model": "item/raulh22/slimefun/slimefun/weapons/explosive_bow/explosive_bow_pulling_1"},
+		{ "predicate": { "custom_model_data": 2200312}, "model": "item/raulh22/slimefun/slimefun/weapons/icy_bow/icy_bow_pulling_1"},
 		{ "predicate": { "custom_model_data": 2200313}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_tome"},
 		{ "predicate": { "custom_model_data": 2200314}, "model": "item/raulh22/slimefun/slimefun/magical_gadgets/knowledge_flask"},
 		{ "predicate": { "custom_model_data": 2200315}, "model": "item/raulh22/slimefun/slimefun/none"},
